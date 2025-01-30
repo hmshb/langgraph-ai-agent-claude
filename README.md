@@ -55,21 +55,21 @@ pip install -e .
 
 ![img_6.png](img_6.png)
 
-### 5. Generate Anthropic Claude API Key
+### 6. Generate Anthropic Claude API Key
 1. Visit [Anthropic](https://console.anthropic.com/settings/keys).
 2. Create an API key for accessing Claude.
 3. Copy the generated API key.
 
 ![img_2.png](img_2.png)
 
-### 6. Generate Tavily API Key
+### 7. Generate Tavily API Key
 1. Visit [Tavily](https://app.tavily.com/home).
 2. Create an API key for accessing tavily.
 3. Copy the generated API key.
 
 ![img_3.png](img_3.png)
 
-### 7. Update ```.env``` File
+### 8. Update ```.env``` File
  - Add the following line to the .env file for actual keys
     ```
     LANGCHAIN_TRACING_V2=true
@@ -78,7 +78,7 @@ pip install -e .
     ANTHROPIC_API_KEY=sk-ant-**************************
     ```
    
-### 8. Run the project
+### 9. Run the project
 ```bash
 langgraph dev
 ```
@@ -87,7 +87,7 @@ langgraph dev
 
 ---
 
-### 9. LangGraph of the AI Agent
+### 10. LangGraph of the AI Agent
 
 ![img_5.png](img_5.png)
 
